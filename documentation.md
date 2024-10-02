@@ -1,4 +1,4 @@
-# Medical Clinic Website Documentation
+# AwaCare Medical Center  Website Documentation
 
 ## Project Overview
 This project is a medical clinic website that allows patients to learn about our services and book appointments.
