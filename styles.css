@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #007BFF;
-    color: white;
+    background-color: #007BFF; /* Keep your header background color */
+    color: white; /* Keep your header text color */
     padding: 10px 0;
     text-align: center;
 }
@@ -32,5 +32,25 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+/* Logo Styling */
+.logo {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+/* Service Item Styling */
+.service-item {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.service-item img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
