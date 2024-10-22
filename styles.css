@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,31 +7,56 @@ body {
 }
 
 header {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #007BFF; /* Header background color */
+    color: white; /* Header text color */
+    padding: 10px 0; /* Padding for header */
+    text-align: center; /* Centered text in header */
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* Remove list styling */
+    padding: 0; /* No padding */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 15px;
+    display: inline; /* Inline list items */
+    margin-right: 15px; /* Space between menu items */
 }
 
 main {
-    padding: 20px;
+    padding: 20px; /* Padding for main content */
 }
 
 footer {
-    background-color: #f1f1f1;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    background-color: #f1f1f1; /* Footer background color */
+    text-align: center; /* Centered text in footer */
+    padding: 10px 0; /* Padding for footer */
+    position: relative; /* Position relative for footer */
+    bottom: 0; /* Align to the bottom */
+    width: 100%; /* Full width */
 }
+
+/* Image styles for service boxes */
+.service-image {
+    width: 100%; /* Makes the image responsive */
+    max-width: 200px; /* Maximum width for larger screens */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Ensures proper spacing */
+    margin: 0 auto; /* Centers the image */
+}
+
+/* Additional styles for layout and responsiveness */
+.services-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: space-around; /* Centers items */
+    margin: 20px 0; /* Space above and below the services section */
+}
+
+.service-box {
+    flex: 1 1 300px; /* Flexible basis with minimum width */
+    text-align: center; /* Centers the text */
+    margin: 10px; /* Space around each service box */
+}
+
+/* Add more styles as needed */
